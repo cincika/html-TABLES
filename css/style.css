@@ -1,0 +1,37 @@
+h1{
+    color:coral;
+    text-align: center;
+}
+.conteiner-table{
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 0.8em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0.17);
+    margin: auto;
+}
+.conteiner-table thead tr{
+    background-color: rgb(12, 173, 159);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+.conteiner-table th,
+.conteiner-table td{
+    padding: 12px 15px;
+}
+.conteiner-table tbody tr{
+    border-bottom: 1px solid rgb(108, 101, 101);
+}
+.conteiner-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.conteiner-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(22, 117, 151);
+}
+.conteiner-table tbody tr.active-row{
+    font-weight: bold;
+    color: rgb(11, 129, 147);
+}
